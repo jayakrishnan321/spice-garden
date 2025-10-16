@@ -1,7 +1,10 @@
 import React from 'react'
 import foodVideo from "../../assets/homefoodvideo.mp4";
-function body() {
+import { useNavigate } from 'react-router-dom';
+function Body() {
+const navigate=useNavigate()
     return (
+        
         <div className="relative h-screen w-full overflow-hidden">
             {/* Background Video Section */}
             <video
@@ -25,7 +28,7 @@ function body() {
                 <p className="text-lg md:text-xl mb-6">
                     Where Flavours Come Alive
                 </p>
-                <button className="bg-orange-500 hover:bg-orange-600 px-6 py-2 rounded-lg text-lg font-medium transition">
+                <button onClick={()=>navigate('/menu')} className="bg-orange-500 hover:bg-orange-600 px-6 py-2 rounded-lg text-lg font-medium transition">
                     Explore Menu
                 </button>
             </div>
@@ -34,4 +37,4 @@ function body() {
     )
 }
 
-export default body
+export default Body
