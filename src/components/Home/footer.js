@@ -45,7 +45,7 @@ function footer() {
       <ul className="space-y-2">
         <li className="hover:text-orange-500 cursor-pointer">Payyanur</li>
         <li className="hover:text-orange-500 cursor-pointer">Kannur</li>
-        <li className="hover:text-orange-500 cursor-pointer">Kozhicode</li>
+        <li className="hover:text-orange-500 cursor-pointer">Kozhikode</li>
         <li className="hover:text-orange-500 cursor-pointer">kochi</li>
         <li className="hover:text-orange-500 cursor-pointer">manglore</li>
         <li className="hover:text-orange-500 cursor-pointer">chennai</li>
